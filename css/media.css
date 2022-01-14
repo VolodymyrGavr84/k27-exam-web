@@ -1,0 +1,55 @@
+@media screen and (max-width: 1750px) {
+    .rhombus-images {
+        height: fit-content;
+        margin-top: 10px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header, .header-nav {
+        height: fit-content;
+    }
+
+    .header-nav {
+        width: 51%;
+    }
+    
+    .header-nav-menu {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .header-nav-menu__item {
+        margin: 10px 0;
+    }
+
+    .section-slick-header__logo {
+        padding-right: 10px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header-nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-slick-header {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-slick-header__contacts {
+        width: 415px;
+        height: 105px;
+        align-self: center;
+    }
+}
