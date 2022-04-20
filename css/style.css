@@ -1,3 +1,7 @@
+:root {
+    --mainGreen: #01983b;
+}
+
 @font-face {
     font-family: "EuropeExt";
     src: url("../fonts/EuropeExt.woff2") format("woff2");
@@ -21,7 +25,7 @@ body {
 /* navigation */
 .header {
     height: 78px;
-    background-color: #01983b;
+    background-color: var(--mainGreen);
 }
 
 .header-nav {
@@ -287,15 +291,15 @@ body {
     width: 405px;
     height: 55px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
-    background-color: #01983b;
+    background-color: var(--mainGreen);
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    box-shadow: 5px 5px 20px #000000;
+    box-shadow: 5px 5px 20px #000;
 }
 
 .video-text-button__button:hover {
@@ -304,7 +308,7 @@ body {
 
 .video-text-button__button:active {
     color: #073d79;
-    box-shadow: 3px 3px 10px #000000;
+    box-shadow: 3px 3px 10px #000;
 }
 /* scope-of-application */
 .block-scope-of-application {
@@ -388,7 +392,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 2px 50px 2px 30px;
-    background-color: #01983b;
+    background-color: var(--mainGreen);
     position: relative;
 }
 
@@ -470,7 +474,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 2px 30px 2px 50px;
-    background-color: #01983b;
+    background-color: var(--mainGreen);
     position: relative;
 }
 
@@ -541,7 +545,7 @@ body {
 }
 /* rhombus-images-text */
 .rhombus-images__items p {
-    color: #01983b;
+    color: var(--mainGreen);
     text-align: center;
     padding: 0 24px;
     text-transform: uppercase;
@@ -579,7 +583,7 @@ body {
     text-transform: uppercase;
     font-size: 31px;
     font-weight: bold;
-    color: #01983b;
+    color: var(--mainGreen);
 }
 /* table */
 .table-block__table {
@@ -596,7 +600,7 @@ body {
 }
 /* first-row */
 .table-block__table--style tr:first-child td {
-    background-color: #01983b;
+    background-color: var(--mainGreen);
     color: #fff;
     font-size: 11px;
     font-weight: bold;
@@ -609,7 +613,7 @@ body {
 
 .table-block__table--style td {
     border: 1px solid #d5dfec;
-    background-color: #ffffff;
+    background-color: #fff;
     height: 40px;
     border-collapse: collapse;
 }
@@ -664,7 +668,7 @@ body {
     max-width: 980px;
     height: 100px;
     margin: 0 auto;
-    color: #01983b;
+    color: var(--mainGreen);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -692,7 +696,7 @@ body {
 }
 
 .tasks-block__container--text-right {
-    background-color: #01983b;
+    background-color: var(--mainGreen);
     display: flex;
     align-items: flex-start;
 }
@@ -782,7 +786,7 @@ body {
 .contacts-block__info {
     width: 65%;
     min-height: 200px;
-    background-color: #01983b;
+    background-color: var(--mainGreen);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: absolute;
@@ -805,7 +809,6 @@ body {
 }
 /* contacts-tel */
 .contacts-block-tel {
-    font-family: "Arial", sans-serif;
     text-decoration: none;
     color: #fff;
 }
@@ -851,7 +854,7 @@ body {
 }
 
 .footer-social-networks p {
-    color: #ffffff;
+    color: #fff;
     font-size: 0.8rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -868,8 +871,10 @@ body {
 .footer-wezom-link {
     color: #fff;
     text-decoration: none;
+    transition: all .3s ease-in;
 }
 
 .footer-wezom-link:hover {
     color: #0000ff;
+    font-size: 1.1rem;
 }
