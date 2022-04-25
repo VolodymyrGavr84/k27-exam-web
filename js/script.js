@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function(){
-
+//Slick photos; section-slick under the menu
     $('.js-slick-content').slick({
         autoplay: true,
         autoplaySpeed: 4500,
@@ -9,9 +9,9 @@ $(document).ready(function(){
         dotsClass: 'new-dots',
         pauseOnDotsHover: true,
     });
-  });
-
-  $('.certificates-content').magnificPopup({
+});
+//certificates images before footer
+$('.js-certificates-content').magnificPopup({
     delegate: 'a',
     type: 'image',
     tLoading: 'Loading image #%curr%...',
@@ -28,3 +28,19 @@ $(document).ready(function(){
         }
     }
 });
+// button for scroll up
+let upButton = document.querySelector('.scrollUp-button');
+window.onscroll = function() {
+if (window.pageYOffset > 3000) {
+upButton.classList.add('scrollUp-button__shown');
+} else {
+    upButton.classList.remove('scrollUp-button__shown');
+    }  
+};
+upButton.onclick = function() {
+window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+});
+};
