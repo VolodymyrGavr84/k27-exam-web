@@ -119,12 +119,12 @@ body {
 }
 
 .social-networks-img {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     border-radius: 50%;
 }
 
 .social-networks-img:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
     filter: hue-rotate(-45deg) opacity(80%);
 }
 /* search */
@@ -282,10 +282,10 @@ body {
 
 .video-text p {
     text-align: center;
-    padding: 0 30px;
-    font-size: 1rem;
-    line-height: 1.2;
-    margin: 5px 0;
+    padding: 0 50px;
+    font-size: 14px;
+    margin: 15px 0;
+    line-height: 1.3;
 }
 /* button */
 .video-text-button {
@@ -655,7 +655,7 @@ body {
     background: url("../image/tasks-background.jpg") center no-repeat;
 }
 /* task-logo */
-.tasks-block__logo {
+.tasks-block-logo {
     max-width: 980px;
     height: 100px;
     margin: 0 auto;
@@ -665,6 +665,7 @@ body {
     align-items: center;
     font-size: 30px;
     font-weight: bold;
+    font-family: var(--extraFont);
     text-transform: uppercase;
 }
 /* task-container-grid */
@@ -673,34 +674,35 @@ body {
     height: fit-content; 
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 125px auto auto 125px;
+    grid-template-columns: 10% auto auto 10%;
     row-gap: 5px;
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
 }
 /* task-text */
-.tasks-block__container--text-left {
+.tasks-block__container-text-left {
     background-color: #ff0000;
     margin-right: 10px;
     display: flex;
     align-items: flex-start;
 }
 
-.tasks-block__container--text-right {
+.tasks-block__container-text-right {
     background-color: var(--mainGreen);
     display: flex;
     align-items: flex-start;
 }
 
 .tasks-block__container p {
-    padding: 10px 10px 10px 0;
+    padding: 0 20px 0 0;
+    margin: 10px 0;
 }
 /* task-text-decor */
-.tasks-block__container--decor-left {
+.tasks-block__container-decor-left {
     background-image: linear-gradient(to right, #ff000036 50%, #ff000086 50%);
 }
 
-.tasks-block__container--decor-right {
+.tasks-block__container-decor-right {
     background-image: linear-gradient(to left, #01983b46 50%, #01983b80 50%);
 }
 /* tasks-container-image */
