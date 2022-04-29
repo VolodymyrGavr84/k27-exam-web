@@ -32,7 +32,7 @@ body {
 
 .header-nav {
     margin: 0 auto;
-    max-width: 980px;
+    width: 52%;
     height: auto;
 }
 
@@ -127,7 +127,12 @@ body {
     transform: scale(1.2);
     filter: hue-rotate(-45deg) opacity(80%);
 }
-/* search */
+/* tel-search */
+.tel-search {
+    width: 100%;
+    height: auto;
+}
+
 .tel-search a {
     text-decoration: none;
     font-weight: bold;
@@ -372,14 +377,14 @@ body {
     flex-direction: column;
 }
 /* left-block-title */
-.left-scope-content__title {
+.left-scope-content-title {
     min-height: 60px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.left-scope-content__title p {
+.left-scope-content-title p {
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
@@ -443,7 +448,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -841,7 +846,7 @@ body {
 /* iframe */
 .contacts-block iframe {
     width: 100%;
-    min-height: 340px;
+    height: 340px;
     display: block;
     border: 0;
 }/* footer */
@@ -894,7 +899,7 @@ body {
     opacity: 60%;
 }
 /* invisible button for scroll up */
-.scrollUp-button {
+.js-scrollUp-button {
     width: 70px;
     height: 70px;
     margin: 20px 5px 0;
@@ -913,7 +918,7 @@ body {
     pointer-events: none;
 }
 
-.scrollUp-button:hover {
+.js-scrollUp-button:hover {
     cursor: pointer;
     background-color: var(--mainGreen);
     color: #fff;
@@ -923,11 +928,11 @@ body {
     opacity: 1;
 }
 
-.scrollUp-button:active {
+.js-scrollUp-button:active {
     background-color: #00772d;
 }
 
-.scrollUp-button__shown {
+.js-scrollUp-button__shown {
     opacity: .6;
     pointer-events: auto;
 }

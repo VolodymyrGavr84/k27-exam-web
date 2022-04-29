@@ -29,12 +29,12 @@ $('.js-certificates-content').magnificPopup({
     }
 });
 // button for scroll up
-let upButton = document.querySelector('.scrollUp-button');
+let upButton = document.querySelector('.js-scrollUp-button');
 window.onscroll = function() {
 if (window.pageYOffset > 3000) {
-upButton.classList.add('scrollUp-button__shown');
+upButton.classList.add('js-scrollUp-button__shown');
 } else {
-    upButton.classList.remove('scrollUp-button__shown');
+    upButton.classList.remove('js-scrollUp-button__shown');
     }  
 };
 upButton.onclick = function() {

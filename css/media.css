@@ -1,55 +1,592 @@
-@media screen and (max-width: 1750px) {
-    .rhombus-images {
-        height: fit-content;
-        margin-top: 10px;
+@media screen and (max-width: 1600px) {
+    .rhombus-images-block {
+        width: 100%;
+        min-height: 500px;
         display: grid;
-        align-items: center;
         grid-template-columns: auto auto auto;
+        justify-content: center;
+        align-items: baseline;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .rhombus-images:nth-child(odd) {
+        align-self: none;
+        margin-top: 0;
     }
 }
 
-@media screen and (max-width: 1400px) {
-    .header, .header-nav {
-        height: fit-content;
+@media screen and (max-width: 1440px) {
+    .header-contacts {
+        height: 100px;
+    }
+
+    .tel-search {
+        text-align: end;
+        font-size: 13px; 
+    }
+
+    .search-field {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        height: auto;
     }
 
     .header-nav {
-        width: 51%;
+        width: 65%;
     }
-    
-    .header-nav-menu {
-        height: auto;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+
+    .section-slick-content {
+        width: 65%;
     }
 
     .header-nav-menu__item {
-        margin: 10px 0;
+        font-size: 70%;
+        margin: 15px 0;
     }
 
-    .section-slick-header__logo {
-        padding-right: 10px;
-        margin: 10px 0;
+    .social-networks-text {
+        font-size: .7rem;
+    }
+
+    .tel-search {
+        font-size: 12px;
+    }
+
+    .section-video__logo img {
+        width: 30%;
+    }
+
+    .section-video__youtube-title {
+        font-size: 1.7rem;
+    }
+
+    .video-text p {
+        font-size: 15px;
+    }
+
+    .video-text-button__button {
+        width: 340px;
+        height: 40px;
+    }
+
+    .block-scope-of-application {
+        min-height: 500px;
+    }
+
+    .scope-of-application {
+        width: 80%;
+    }
+
+    .rhombus-images-block {
+        gap: 1px;
+        grid-auto-rows: min-content;
+    }
+
+    .rhombus-images-items {
+        max-width: 150px;
+        height: 150px;
+    }
+
+    .rhombus-images__size {
+        width: 70%;
+    }
+
+    .tasks-block__container {
+        max-width: 1078px;
+        font-size: 15px;
+    }
+
+    .tasks-block-logo {
+        font-size: 25px;
+    }
+
+    .certificates-logo-image {
+        width: 320px;
+        height: auto;
+    }
+
+    .left-scope-content-title p {
+        font-size: 18px;
+    }
+
+    .right-scope-content-title p {
+        font-size: 18px;
+    }
+
+    .certificates-logo-title p {
+        font-size: 25px;
+    }
+
+    .right-scope-content-title p {
+        margin-left: 0;
+    }
+
+    .js-certificates-content {
+        max-width: 790px;
+    }
+
+    .certificates-block-award p {
+        font-size: 16px;
+    }
+
+    .contacts-block {
+        min-height: 350px;
+    }
+
+    .contacts-block__info {
+        height: 170px;
+        top: -10px;
+    }
+
+    .contacts-block__info h3 {
+        font-size: 20px;
+    }
+
+    .contacts-block iframe {
+        height: 210px;
+    }
+
+    .footer {
+        min-height: 190px;
+    }
+
+    .footer-logo {
+        width: 20%;
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1024px) {
+    .rhombus-images {
+        width: 160px;
+    }
+
+    .table-block {
+        max-width: 1000px;
+        min-height: 740px;
+    }
+
+    .table-block__logo {
+        width: 285px;
+        height: auto;
+    }
+
+    .table-block-logo-title {
+        height: 110px;
+    }
+
+    .table-block-logo-title p {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .tasks-block__container {
+        max-width: 900px;
+        font-size: 12px;
+    }
+
+    .table-block__table {
+        max-width: 900px;
+    }
+
+    .table-block__table-style {
+        margin: 0 auto 50px;
+    }
+
+    .video-text p {
+        padding: 0 80px;
+    }
+
+    .contacts-block {
+        min-height: 290px;
+    }
+
+    .contacts-block__info {
+        height: 110px;
+        top: -10px;
+    }
+
+    .contacts-block__info p {
+        padding-bottom: 5px;
+        max-width: 575px;
+        margin: 0 auto;
+        font-size: .7em;
+    }
+
+    .footer {
+        min-height: 160px;
+    }
+
+    .footer-logo {
+        width: 15%;
+    }
+
+    .footer-social-networks-img {
+        width: 25px;
+        height: auto;
+    }
+
+    .footer-wezom-link {
+        font-size: 75%;
+    }
+
+    .footer-wezom-link:hover {
+        font-size: .9rem;
+    }
+
+    .scrollUp-button {
+        width: 50px;
+        height: 50px;
+        font-size: .7rem;
+    }
+
+    .scrollUp-button:hover {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .header-nav {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .section-slick {
+        height: 539px;
+        background: url("../image/art-museum-background.jpg") no-repeat;
+    }
+
+    .section-slick-content {
+        width: 70%;
+    }
+
+    .slick-list {
+        height: 330px;
+    }
+
+    .slick-content__text {
+        bottom: 300px;
+    }
+
+    .slick-content__text-title {
+        font-size: 1rem;
+    }
+
+    .section-video__youtube-title {
+        font-size: 1.3rem;
+    }
+
+    .block-video {
+        min-height: 730px;
+    }
+
+    .section-video__youtube-iframe iframe {
+        width: 560px;
+        height: 250px;
+    }
+
+    .section-video__youtube-title {
+        height: 40px;
+    }
+
+    .section-video__youtube {
+        width: 100%;
+        height: 310px;
+    }
+
+    .scope-of-application {
+        height: 740px;
+    }
+
+    .scope-of-application-content {
+        min-height: 225px;
+    }
+
+    .left-scope-content-ul li {
+        padding: 0;
+    }
+
+    .right-scope-content-ul li {
+        padding: 0;
+    }
+
+    .rhombus-images {
+        width: 130px;
+        min-height: 100px;
+    }
+
+    .rhombus-images-block {
+        min-height: 320px;
+    }
+
+    .rhombus-images-items {
+        max-width: 110px;
+        height: 110px;
+    }
+
+    .rhombus-images p {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .table-block {
+        max-width: 890px;
+    }
+
+    .tasks-block {
+        background: url("../image/tasks-background.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .contacts-block__info h3 {
+        font-size: 15px;
+    }
+
+    .footer {
+        min-height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table-block__table-style {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-nav {
+        width: 85%;
+    }
+
+    .tasks-block__container {
+        grid-template-columns: auto auto;
+    }
+
+    .tasks-block__container-decor-left {
+        display: none;
+    }
+
+    .tasks-block__container-decor-right {
+        display: none;
+    }
+
+    .certificates-logo-title p {
+        font-size: 18px;
+    }
+
+    .js-certificates-content {
+        height: 395px;
+        width: 460px;
+        flex-wrap: wrap;
+    }
+
+    .contacts-block__info h3 {
+        margin: 1px 0;
+    }
+
+    .contacts-block__info a {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
     .header-nav-menu {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-nav-menu__item {
+        font-size: 100%;
+        margin: 5px 0;
+    }
+
+    .header-nav-menu__item:first-child {
+        margin-top: 10px;
+    }
+
+    .header-contacts {
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+
+    .tel-search form {
+        display: none;
+    }
+
+    .section-slick {
+        height: 110px;
+    }
+
+    .slick {
+        display: none;
     }
 
     .section-slick-header {
-        height: auto;
-        display: flex;
+        margin-top: 10px;
         flex-direction: column;
-        align-items: center;
     }
 
-    .section-slick-header__contacts {
-        width: 415px;
-        height: 105px;
-        align-self: center;
+    .slick-shadow {
+        display: none;
+    }
+
+    .section-video__logo {
+        height: 40px;
+    }
+
+    .section-video__logo img {
+        width: 225px;
+    }
+
+    .section-video__youtube-title {
+        font-size: .9rem;
+    }
+
+    .section-video__shadow {
+        display: none;
+    }
+
+    .video-text p {
+        padding: 0 50px;
+    }
+
+    .video-text-button__button {
+        width: 280px;
+        font-size: 1rem;
+    }
+
+    .video-text-button {
+        min-height: 50px;
+    }
+
+    .scope-of-application {
+        height: 780px;
+    }
+
+    .scope-of-application-title {
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .right-scope-content-ul li {
+        text-align: end;
+    }
+
+    .left-scope-content-title p {
+        font-size: 10px;
+    }
+
+    .right-scope-content-title p {
+        font-size: 10px;
+    }
+
+    .left-scope-content-ul li {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .right-scope-content-ul li {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .left-scope-content-footer-logo__size {
+        width: 90px;
+        height: auto;
+    }
+
+    .right-scope-content-footer-logo__size {
+        width: 90px;
+        height: auto;
+    }
+
+    .rhombus-images-block {
+        grid-template-columns: auto auto;
+    }
+
+    .table-block__logo {
+        width: 225px;
+    }
+
+    .table-block-logo-title p {
+        font-size: 14px;
+    }
+
+    .table-block__table-style tr:first-child td {
+        font-size: 9px;
+    }
+
+    .table-block__table-style td {
+        padding: 5px 0;
+        font-size: 8px;
+    }
+
+    .table-shadow {
+        display: none;
+    }
+
+    .tasks-block-logo {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .tasks-block__container-image-sad-smile {
+        width: 20px;
+        height: auto;
+        margin: 5px 5px;
+    }
+
+    .tasks-block__container-image-smile {
+        width: 20px;
+        height: auto;
+        margin: 5px 5px;
+    }
+
+    .certificates-logo-title {
+        height: 80px;
+    }
+
+    .certificates-logo-image {
+        width: 225px;
+    }
+
+    .certificates-logo-title p {
+        font-size: 16px;
+    }
+
+    .js-certificates-content {
+        height: 600px;
+        width: 325px;
+    }
+
+    .certificates-block-award p {
+        font-size: 12px;
+    }
+
+    .certificates-block-award {
+        min-height: 185px;
+    }
+
+    .contacts-block__info {
+        width: 80%;
+        left: 12%;
+    }
+
+    .footer-logo {
+        width: 30%;
     }
 }
+
+/*
+@media screen and (max-width: 360px) {
+    . {
+
+    }
+}*/
