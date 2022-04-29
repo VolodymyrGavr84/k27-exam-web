@@ -445,7 +445,8 @@
     }
 
     .section-video__youtube-title {
-        font-size: .9rem;
+        font-size: .7rem;
+        letter-spacing: .1px;
     }
 
     .section-video__shadow {
@@ -481,20 +482,25 @@
 
     .left-scope-content-title p {
         font-size: 10px;
+        text-align: center;
+        margin-right: 0;
     }
 
     .right-scope-content-title p {
         font-size: 10px;
+        text-align: center;
     }
 
     .left-scope-content-ul li {
         width: 100%;
         font-size: 0.7rem;
+        text-align: center;
     }
 
     .right-scope-content-ul li {
         width: 100%;
         font-size: 0.7rem;
+        text-align: center;
     }
 
     .left-scope-content-footer-logo__size {
@@ -583,10 +589,3 @@
         width: 30%;
     }
 }
-
-/*
-@media screen and (max-width: 360px) {
-    . {
-
-    }
-}*/
