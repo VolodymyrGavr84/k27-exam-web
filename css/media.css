@@ -114,16 +114,17 @@
         font-size: 18px;
     }
 
+    .right-scope-content-title {
+        justify-content: center;
+    }
+
     .right-scope-content-title p {
         font-size: 18px;
+        margin-left: 0;
     }
 
     .certificates-logo-title p {
         font-size: 25px;
-    }
-
-    .right-scope-content-title p {
-        margin-left: 0;
     }
 
     .js-certificates-content {
@@ -358,13 +359,54 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .header-nav {
         width: 85%;
     }
 
+    .video-text-button {
+        min-height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .section-video__logo {
+        height: 60px;
+    }
+
+    .section-video__youtube-title {
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+    }
+
+    .section-video__shadow-position {
+        left: -16%;
+        width: 132%;
+    }
+
+    .scope-of-application {
+        height: 620px;
+    }
+
+    .scope-of-application-title {
+        height: 55px;
+    }
+
+    .left-scope-content-title p {
+        padding-left: 10px;
+    }
+
+    .right-scope-content-title p {
+        padding-left: 10px;
+    }
+
+    .table-shadow__position {
+        left: -30px;
+        width: 110%;
+    }
+
     .tasks-block__container {
         grid-template-columns: auto auto;
+        margin-bottom: 20px;
     }
 
     .tasks-block__container-decor-left {
@@ -373,6 +415,22 @@
 
     .tasks-block__container-decor-right {
         display: none;
+    }
+
+    .tasks-block__container-text-left {
+        background-color: #ff0000c9;
+    }
+
+    .tasks-block__container-text-right {
+        background-color: #01983bd1;
+    }
+
+    .certificates-block-award {
+        min-height: 210px;
+    }
+
+    .certificates-logo-title {
+        height: 75px;
     }
 
     .certificates-logo-title p {
@@ -437,7 +495,7 @@
     }
 
     .section-video__logo {
-        height: 40px;
+        display: none;
     }
 
     .section-video__logo img {
@@ -484,11 +542,13 @@
         font-size: 10px;
         text-align: center;
         margin-right: 0;
+        padding: 0 5px;
     }
 
     .right-scope-content-title p {
         font-size: 10px;
         text-align: center;
+        padding: 0 5px;
     }
 
     .left-scope-content-ul li {

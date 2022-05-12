@@ -32,9 +32,9 @@ $('.js-certificates-content').magnificPopup({
 let upButton = document.querySelector('.js-scrollUp-button');
 window.onscroll = function() {
 if (window.pageYOffset > 3000) {
-upButton.classList.add('js-scrollUp-button__shown');
+upButton.classList.add('js-scrollUp-button--shown');
 } else {
-    upButton.classList.remove('js-scrollUp-button__shown');
+    upButton.classList.remove('js-scrollUp-button--shown');
     }  
 };
 upButton.onclick = function() {
