@@ -45,7 +45,7 @@
     }
 
     .header-nav-menu__item {
-        font-size: 70%;
+        font-size: .9rem;
         margin: 15px 0;
     }
 
@@ -257,6 +257,10 @@
         width: 70%;
     }
 
+    .header-nav-menu__item {
+        font-size: .75rem;
+    }
+
     .section-slick {
         height: 539px;
         background: url("../image/art-museum-background.jpg") no-repeat;
@@ -354,6 +358,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .header-nav-menu__item {
+        font-size: .6rem;
+    }
+    
     .table-block__table-style {
         width: 90%;
     }
