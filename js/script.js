@@ -6,6 +6,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 4500,
         dots: true,
+        fade: true,
         dotsClass: 'new-dots',
         pauseOnDotsHover: true,
     });
