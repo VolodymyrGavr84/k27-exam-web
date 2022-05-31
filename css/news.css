@@ -145,12 +145,17 @@ body {
     color: var(--mainGreen);
 }
 
-.news-container__item--phoneCall,
-.news-container__item--phoneCall-2 {
+.news-container__item p b {
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #fff;
+}
+
+.news-container__item--sign,
+.news-container__item--sign-2 {
     position: relative;
 }
 
-.news-container__item--phoneCall::after {
+.news-container__item--sign::after {
     content: "";
     width: 75px;
     height: 75px;
@@ -162,7 +167,7 @@ body {
     right: -40px;
 }
 
-.news-container__item--phoneCall-2::after {
+.news-container__item--sign-2::after {
     content: "";
     width: 75px;
     height: 75px;
