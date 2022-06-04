@@ -4,14 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NovaBoard CONTACTS</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-        <link rel="manifest" href="favicons/site.webmanifest">
-        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+        <link rel="manifest" href="../favicons/site.webmanifest">
+        <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#ffc40d">
         <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <link rel="stylesheet" href="../css/contacts.css" type="text/css">
         <link rel="stylesheet" href="../css/media.css" type="text/css">
     </head>
 
@@ -28,11 +29,72 @@
                     <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="about.html">О компании</a></li>
                     <li class="header-nav-menu__item"><a class="header-nav-menu__link active" href="contacts.html">Контакты</a></li>
                 </ul>
-            </div>    
+            </div>   
+            
+            <div class="contacts-block__info"> 
+                <h3>контакты</h3>
+                <p>ООО «Производственно коммерческая фирма «Элит Пласт» 73000, Украина, г.Херсон, ул.Советская, 41-А</p>
+
+                    <div class="contacts-block__phone-call"> <!-- contacts absolut top -->
+                        <img class="contacts-block__phone-icon" src="../image/contacts/phone-icon-white-600x600.png" alt="phone-icon">
+                        <p>Звонить с 8:00 до 17:00</p>
+                    </div>
+
+                <a class="contacts-block-tel" href="tel:+380552314410">+38(0552)314-410</a>,
+                <a class="contacts-block-tel" href="tel:+380552314403">314-403</a>;
+                <a class="contacts-block-tel" href="tel:+380552359214">факс:+38(0552)359-214</a><br>
+                <a class="contacts-block-tel" href="mailto:info@penoboard.com">e-mail:info@penoboard.com</a>
+            </div>
     </header>
 
+    <div class="header-email">  <!-- email -->
+        <img class="header-email__img" src="../image/contacts/phone-icon-600x600.png" alt="email-icon">
+        <p>Напишите нам</p>
+    </div>
 
+    <div class="email-form">    <!-- email-form aside-hidden-->
+        <form class="email-form__form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+            <div class="email-form__close-icon">X</div>
+            <fieldset>
+                <legend>Заполните форму</legend>
+                <label for="#email-name">Имя</label>
+                <input class="email-form__input" type="text" id="email-name" name="name" placeholder="Введите имя">
 
+                <label for="email-form">Почта</label>
+                <input class="email-form__email" type="email" name="email" id="email-form" placeholder="Ваша почта: example@email.com" autofocus required>
+                <label for="form-textarea">Сообщение</label>
 
+                <textarea class="email-form__textarea" id="form-textarea" placeholder="Напишите Ваше сообщение" required></textarea>
+
+                <button class="email-form__btn" type="submit" name="button" value="submit">Отправить</button>
+
+                <img class="email-form__logo" src="../image/footer-background.jpg" alt="novabord-logo">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="map-container"> <!-- map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.586174463165!2d32.61153416383484!3d46.63732954403639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ab70369e147%3A0x7c1b1c535f39d7be!2sWezom!5e0!3m2!1sen!2sua!4v1641911567437!5m2!1sen!2sua" loading="lazy"></iframe>
+    </div>
+
+    <footer class="footer">   <!-- footer -->
+        <div class="footer-logo">     <!-- footer-logo -->
+            <a href="contacts.html">
+                <img src="../image/footer-logo.png" alt="footer-logo">
+            </a>
+        </div>
+    
+        <div class="footer-social-networks">   <!-- footer-social-networks -->
+            <p>мы в социальных сетях</p>
+            <a href="https://www.instagram.com/wezom.company/" target="_blank"><img class="footer-social-networks-img" src="../image/footer-icon-in.png" alt="instagram-icon"></a>
+            <a href="https://vk.com/kursywezom" target="_blank"><img class="footer-social-networks-img" src="../image/footer-icon-vk.png" alt="instagram-icon"></a>
+        </div>
+    
+        <div class="footer-wezom">
+            <a class="footer-wezom-link" href="https://wezom.com.ua/" target="_blank" title="wezom.com.ua">Разработка сайта — студия WEZOM</a>
+        </div>
+    </footer>
+
+    <script src="../js/contacts.js"></script>
 </body>
 </html>
