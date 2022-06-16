@@ -19,17 +19,29 @@
 <body>
 
     <header class="header">                             
-            <div class="header-nav">            <!-- navigation -->
-                <ul class="header-nav-menu">
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="../index.html">Главная</a></li>
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="news.html">Новости</a></li>
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="products.html">Продукция</a></li>
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="gallery.html">Фотогалерея</a></li>
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="articles.html">Статьи</a></li>
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link" href="about.html">О компании</a></li>
-                    <li class="header-nav-menu__item"><a class="header-nav-menu__link active" href="contacts.html">Контакты</a></li>
-                </ul>
-            </div>   
+        <div class="header-nav">            <!-- navigation -->
+            <ul class="header-nav__menu">
+                <li class="header-nav__menu-item"><a class="header-nav__menu-link" href="../index.html">Главная</a></li>
+                <li class="header-nav__menu-item">
+                    <a class="header-nav__menu-link" href="news.html">Новости</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a class="header-nav__menu-link" href="products.html">Продукция</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a class="header-nav__menu-link" href="gallery.html">Фотогалерея</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a class="header-nav__menu-link" href="articles.html">Статьи</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a class="header-nav__menu-link" href="about.html">О компании</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a class="header-nav__menu-link header-nav__menu--active" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>       
             
             <div class="contacts-block__info"> 
                 <h3>контакты</h3>
@@ -47,26 +59,26 @@
             </div>
     </header>
 
-    <div class="header-email">  <!-- email -->
-        <img class="header-email__img" src="../image/contacts/phone-icon-600x600.png" alt="email-icon">
+    <div class="email-header">  <!-- email -->
+        <img class="email-header__img" src="../image/contacts/phone-icon-600x600.png" alt="email-icon">
         <p>Напишите нам</p>
     </div>
 
     <div class="email-form">    <!-- email-form aside-hidden-->
-        <form class="email-form__form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
-            <div class="email-form__close-icon">X</div>
-            <fieldset>
-                <legend>Заполните форму</legend>
-                <label for="#email-name">Имя</label>
-                <input class="email-form__input" type="text" id="email-name" name="name" placeholder="Введите имя">
+        <form class="email-form__form" id="novaboard-form" name="novaboard-form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+            <fieldset class="email-form__fieldset">
+                <button class="email-form__close-icon" type="reset">X</button>
+                <legend class="email-form__legend">Заполните форму</legend>
+                <label class="email-form__name-label" for="#email-name">Имя</label>
+                <input class="email-form__name" type="text" id="email-name" name="name" placeholder="Не обязательно" tabindex="1" maxlength="30">
 
-                <label for="email-form">Почта</label>
-                <input class="email-form__email" type="email" name="email" id="email-form" placeholder="Ваша почта: example@email.com" autofocus required>
-                <label for="form-textarea">Сообщение</label>
+                <label for="email-form">Почта*</label>
+                <input class="email-form__email" type="email" name="email" id="email-form" placeholder="example@email.com" tabindex="2" required>
+                <label for="form-textarea">Сообщение*</label>
 
-                <textarea class="email-form__textarea" id="form-textarea" placeholder="Напишите Ваше сообщение" required></textarea>
+                <textarea class="email-form__textarea" id="form-textarea" placeholder="Напишите Ваше сообщение" tabindex="3" required></textarea>
 
-                <button class="email-form__btn" type="submit" name="button" value="submit">Отправить</button>
+                <button class="email-form__btn" type="submit" name="button" tabindex="4">Отправить</button>
 
                 <img class="email-form__logo" src="../image/footer-background.jpg" alt="novabord-logo">
             </fieldset>

@@ -1,0 +1,101 @@
+:root {
+    --mainGreen: #01983b;
+    --extraFont: EuropeExt, Arial, sans-serif;
+    
+}
+
+@font-face {
+    font-family: "EuropeExt";
+    src: url("../fonts/EuropeExt.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuropeExt";
+    src: url("../fonts/EuropeExtBold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* header */
+.header-wrapper {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* Sticky sideBar */
+.articles-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/under-construction-2-background.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 1000px;
+}
+
+.articles-container {
+    max-width: 1000px;
+    min-height: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px 40px;
+    border: 2px solid #e6ecf4;
+    background-color: #e6ecf4;
+    box-shadow: 0 12px 0 -6px #988b8e;
+}
+
+.articles__title {
+    text-align: center;
+    margin: 0;
+    font-family: var(--extraFont);
+    text-shadow: 2px 2px 3px #fff;
+    color: #043567;
+}
+
+.articles-container p::first-letter {
+    font-size: 2rem;
+    color: var(--mainGreen);
+}
+
+.js-sidebar {
+    max-width: 200px;
+    padding: 10px;
+    margin: 0 0 40px;
+    text-align: center;
+    border: 2px solid #e6ecf4;
+    background-color: #e6ecf4;
+    box-shadow: 0 12px 0 -6px #988b8e;
+    position: fixed;
+    right: 10%;
+    top: 30%;
+    opacity: 0;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    pointer-events: none;
+}
+
+.js-sidebar__link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #012284;
+}
+
+.js-sidebar__link:hover {
+    text-decoration: underline;
+}
+
+.js-sidebar--shown {
+    opacity: 1;
+    pointer-events: auto;
+}

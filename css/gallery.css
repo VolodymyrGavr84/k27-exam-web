@@ -1,0 +1,35 @@
+:root {
+    --mainGreen: #01983b;
+    --extraFont: EuropeExt, Arial, sans-serif;
+    
+}
+
+@font-face {
+    font-family: "EuropeExt";
+    src: url("../fonts/EuropeExt.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuropeExt";
+    src: url("../fonts/EuropeExtBold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* header */
+.header-wrapper {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
