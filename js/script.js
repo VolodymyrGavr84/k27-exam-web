@@ -6,7 +6,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 4500,
         dots: true,
-        fade: true,
+        fade: false,
         dotsClass: 'new-dots',
         pauseOnDotsHover: true,
     });
