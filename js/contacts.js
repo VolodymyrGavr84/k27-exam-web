@@ -1,7 +1,7 @@
 'use strict';
 
 // header email-form visible
-let sendEmail = document.querySelector('.email-header');
+let sendEmail = document.querySelector('.header-email');
 let sendFormHidden = document.querySelector('.email-form');
 let hideForm = document.querySelector('.email-form__close-icon');
 
