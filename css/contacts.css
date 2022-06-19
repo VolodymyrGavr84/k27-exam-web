@@ -245,7 +245,7 @@ body {
 
 .email-form__email:valid,
 .email-form__textarea:valid {
-    background-image: url(../image/forma-vk-icon.jpg);
+    background-image: url(../image/contacts/correct-icon.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -256,4 +256,20 @@ body {
     display: block;
     border: 0;
     margin-bottom: 0;
+}
+/* footer logo animation */
+.footer__logo-img:hover {
+    animation: movingLogo .5s ease-in forwards;
+    -moz-animation: movingLogo .5s ease-in forwards;
+    -webkit-animation: movingLogo .5s ease-in forwards;
+}
+
+@keyframes movingLogo {
+    10% {
+        transform: skewx(10deg);
+    }
+
+    50% {
+        transform: skewx(50deg);
+    }
 }

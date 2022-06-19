@@ -33,13 +33,29 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+/* logo-animation */
+.slick-header__logo:hover {
+    animation: movingLogo .5s ease-in forwards;
+    -moz-animation: movingLogo .5s ease-in forwards;
+    -webkit-animation: movingLogo .5s ease-in forwards;
+}
+
+@keyframes movingLogo {
+    10% {
+        transform: skewx(10deg);
+    }
+
+    50% {
+        transform: skewx(50deg);
+    }
+}
 /* about */
 .about-container {
     width: 100%;
     min-height: 700px;
-    background-image: url(../image/scope-of-application-background.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../image//about/about-background.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 .about {
@@ -66,8 +82,13 @@ body {
 }
 
 .about__img {
-    width: 100%;
+    max-width: 600px;
     height: auto;
     max-width: 780px;
     border-radius: 20px;
+}
+
+.about__img2 {
+    width: 100%;
+    height: auto;
 }

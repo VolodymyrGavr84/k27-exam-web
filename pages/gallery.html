@@ -18,89 +18,123 @@
 
 <body>
 
-    <header class="header">                             
-        <div class="header-nav">            <!-- navigation -->
-            <ul class="header-nav__menu">
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link" href="../index.html">Главная</a>
-                </li>
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link" href="news.html">Новости</a>
-                </li>
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link" href="products.html">Продукция</a>
-                </li>
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link header-nav__menu--active" href="gallery.html">Фотогалерея</a>
-                </li>
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link" href="articles.html">Статьи</a>
-                </li>
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link" href="about.html">О компании</a>
-                </li>
-                <li class="header-nav__menu-item">
-                    <a class="header-nav__menu-link" href="contacts.html">Контакты</a>
-                </li>
-            </ul>
+<header class="header">                             
+    <div class="header-nav">            <!-- navigation -->
+        <ul class="header-nav__menu">
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link" href="../index.html">Главная</a>
+            </li>
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link" href="news.html">Новости</a>
+            </li>
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link" href="products.html">Продукция</a>
+            </li>
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link header-nav__menu--active" href="gallery.html">Фотогалерея</a>
+            </li>
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link" href="articles.html">Статьи</a>
+            </li>
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link" href="about.html">О компании</a>
+            </li>
+            <li class="header-nav__menu-item">
+                <a class="header-nav__menu-link" href="contacts.html">Контакты</a>
+            </li>
+        </ul>
+    </div>    
+</header>
+
+<section class="header-wrapper">         <!-- header -->
+    <div class="slick-header">  
+        <a href="about.html">         <!-- logo -->
+            <img class="slick-header__logo" src="../image/logo-header.jpg" alt="logo">
+        </a>
+
+        <div class="slick-header__contacts"> <!-- contacts -->
+            <div class="slick-header__contacts-wrapper">
+                <p class="slick-header__contacts-text">мы в социальных сетях</p>
+                <a class="slick-header__contacts-link" href="https://www.instagram.com/wezom.company/" target="_blank">
+                    <img class="slick-header__contacts-img" src="../image/forma-in-icon.jpg" alt="instagram-icon">
+                </a>
+                <a class="slick-header__contacts-link" href="https://vk.com/kursywezom" target="_blank">
+                    <img class="slick-header__contacts-img" src="../image/forma-vk-icon.jpg" alt="instagram-icon">
+                </a>
+            </div>
+
+            <div class="slick-header__tel-search">       <!-- tel-search -->
+                <a class="slick-header__tel-search-link" href="tel:+380552314410">+38(0552)314-410</a>,
+                <a class="slick-header__tel-search-link" href="tel:+380552314403">314-403</a>;
+                <a class="slick-header__tel-search-link" href="tel:+380552359214">факс:+38(0552)359-214</a><br>
+                <a class="slick-header__tel-search-link" href="mailto:info@penoboard.com">e-mail:info@penoboard.com</a>
+
+                <form>
+                    <input class="slick-header__search-field" name="search" type="search">
+                    <button class="slick-header__search-button" type="submit">&#128269;</button>
+                </form>
+            </div>
         </div>    
-    </header>
+    </div>
+</section>
 
-    <section class="header-wrapper">         <!-- header -->
-        <div class="slick-header">  
-            <a href="about.html">         <!-- logo -->
-                <img class="slick-header__logo" src="../image/logo-header.jpg" alt="logo">
-            </a>
-
-            <div class="slick-header__contacts"> <!-- contacts -->
-                <div class="slick-header__contacts-wrapper">
-                    <p class="slick-header__contacts-text">мы в социальных сетях</p>
-                    <a class="slick-header__contacts-link" href="https://www.instagram.com/wezom.company/" target="_blank">
-                        <img class="slick-header__contacts-img" src="../image/forma-in-icon.jpg" alt="instagram-icon">
-                    </a>
-                    <a class="slick-header__contacts-link" href="https://vk.com/kursywezom" target="_blank">
-                        <img class="slick-header__contacts-img" src="../image/forma-vk-icon.jpg" alt="instagram-icon">
-                    </a>
-                </div>
-
-                <div class="slick-header__tel-search">       <!-- tel-search -->
-                    <a class="slick-header__tel-search-link" href="tel:+380552314410">+38(0552)314-410</a>,
-                    <a class="slick-header__tel-search-link" href="tel:+380552314403">314-403</a>;
-                    <a class="slick-header__tel-search-link" href="tel:+380552359214">факс:+38(0552)359-214</a><br>
-                    <a class="slick-header__tel-search-link" href="mailto:info@penoboard.com">e-mail:info@penoboard.com</a>
-
-                    <form>
-                        <input class="slick-header__search-field" name="search" type="search">
-                        <button class="slick-header__search-button" type="submit">&#128269;</button>
-                    </form>
-                </div>
-            </div>    
+<section class="gallery-container"> <!-- mixitup -->
+        <div class="gallery__controls">
+            <button class="gallery__controls-btn" type="button" data-filter="all">Все</button>
+            <button class="gallery__controls-btn" type="button" data-filter=".category-a">Внешняя отделка</button>
+            <button class="gallery__controls-btn" type="button" data-filter=".category-b">Внутренние работы</button>
+            <button class="gallery__controls-btn" type="button" data-filter=".category-c">Фасад</button>
         </div>
-    </section>
-
-
-
-    <footer class="footer">   <!-- footer -->
-        <div class="footer__logo">     <!-- footer-logo -->
-            <a href="contacts.html">
-                <img class="footer__logo-img" src="../image/footer-logo.png" alt="footer-logo">
-            </a>
+        <div class="gallery-filter">
+            <div class="mix category-a" data-order="1">    <!-- category 1 a -->
+                <img class="gallery__img" src="../image/gallery/gallery-img-1.jpg" alt="gallery-img-1">
+            </div>
+            <div class="mix category-a" data-order="1">
+                <img class="gallery__img" src="../image/gallery/gallery-img-2.jpg" alt="gallery-img-2">
+            </div>
+            <div class="mix category-a" data-order="1">
+                <img class="gallery__img" src="../image/gallery/gallery-img-3.jpg" alt="gallery-img-3">
+            </div>
+            <div class="mix category-b" data-order="2">     <!-- category 2 b -->
+                <img class="gallery__img" src="../image/gallery/gallery-img-4.jpg" alt="gallery-img-4">
+            </div>
+            <div class="mix category-b" data-order="2">
+                <img class="gallery__img" src="../image/gallery/gallery-img-5.jpg" alt="gallery-img-5">
+            </div>
+            <div class="mix category-b" data-order="2">
+                <img class="gallery__img" src="../image/gallery/gallery-img-6.jpg" alt="gallery-img-6">
+            </div>
+            <div class="mix category-c" data-order="3">     <!-- category 3 c -->
+                <img class="gallery__img" src="../image/gallery/gallery-img-7.jpg" alt="gallery-img-7">
+            </div>
+            <div class="mix category-c" data-order="3">
+                <img class="gallery__img" src="../image/gallery/gallery-img-8.jpg" alt="gallery-img-8">
+            </div>
         </div>
-        <div class="footer__social-networks">   <!-- footer-social-networks -->
-            <p>мы в социальных сетях</p>
-            <a href="https://www.instagram.com/wezom.company/" target="_blank">
-                <img class="footer__social-networks-img" src="../image/footer-icon-in.png" alt="instagram-icon">
-            </a>
-            <a href="https://vk.com/kursywezom" target="_blank">
-                <img class="footer__social-networks-img" src="../image/footer-icon-vk.png" alt="instagram-icon">
-            </a>
-        </div>
-        <div class="footer__wezom">
-            <a class="footer__wezom-link" href="https://wezom.com.ua/" target="_blank" title="wezom.com.ua">Разработка сайта — студия WEZOM</a>
-        </div>
-    </footer>
+</section>
 
+<footer class="footer">   <!-- footer -->
+    <div class="footer__logo">     <!-- footer-logo -->
+        <a href="contacts.html">
+            <img class="footer__logo-img" src="../image/footer-logo.png" alt="footer-logo">
+        </a>
+    </div>
+    <div class="footer__social-networks">   <!-- footer-social-networks -->
+        <p>мы в социальных сетях</p>
+        <a href="https://www.instagram.com/wezom.company/" target="_blank">
+            <img class="footer__social-networks-img" src="../image/footer-icon-in.png" alt="instagram-icon">
+        </a>
+        <a href="https://vk.com/kursywezom" target="_blank">
+            <img class="footer__social-networks-img" src="../image/footer-icon-vk.png" alt="instagram-icon">
+        </a>
+    </div>
+    <div class="footer__wezom">
+        <a class="footer__wezom-link" href="https://wezom.com.ua/" target="_blank" title="wezom.com.ua">Разработка сайта — студия WEZOM</a>
+    </div>
+</footer>
 
-
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/mixitup.min.js"></script>
+<script src="../js/gallery.js"></script>
 </body>
 </html>
