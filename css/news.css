@@ -95,8 +95,9 @@ body {
 /* news-container */
 .news {
     width: 100%;
+    max-width: 1920px;
     min-height: 850px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
     background-image: url(../image/news/news-background.jpg);
     background-repeat: no-repeat;
     background-position: center;

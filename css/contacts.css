@@ -33,7 +33,10 @@ body {
 }
 /* contacts */
 .contacts {
-    top: 78px;
+    margin: 0 auto;
+    position: inherit;
+    top: -17px;
+    left: 0;
 }
 /* phone-call */ 
 .contacts__phone-call {
@@ -69,33 +72,33 @@ body {
     }
 }
 /* email button */
-.header-email {
-    margin-left: auto;
+.email-btn {
     width: 300px;
     height: 100px;
     border: 2px solid #e6ecf4;
     border-radius: 20px;
     display: flex;
+    align-items: center;
     position: absolute;
-    top: 130px;
-    right: 340px;
+    top: 50px;
+    right: 15px;
     cursor: pointer;
     transition: all .3s ease;
     -moz-transition: all .3s ease;
     -webkit-transition: all .3s ease;
 }
 
-.header-email:hover {
+.email-btn:hover {
     background-color: #00772d;
     border: 2px solid #e6ecf4;
     box-shadow: 5px 5px 3px #4c4c4c;
 }
 
-.header-email:hover p {
+.email-btn:hover p {
     color: #f4e6e6;
 }
 
-.header-email:hover img {
+.email-btn:hover img {
     transform: scale(1.03);
     transition: all .3s ease;
     -moz-transform: scale(1.03);
@@ -104,17 +107,16 @@ body {
     -webkit-transition: all .3s ease;
 }
 
-.header-email__img {
+.email-btn__img {
     width: 90px;
     height: auto;
     padding: 5px;
 }
 
-.header-email p {
-    align-self: center;
+.email-btn p {
+    margin-top: 17px;
     font-family: var(--extraFont);
     font-weight: bold;
-    padding-left: 20px;
     font-size: 18px;
     color: #fff;
 }
@@ -126,8 +128,8 @@ body {
     border-radius: 20px;
     background-color: var(--mainGreen);
     position: absolute;
-    top: 120px;
-    right: 40px;
+    top: 55px;
+    right: -140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,8 +152,8 @@ body {
     text-align: center;
     cursor: pointer;
     position: relative;
-    top: -20px;
-    left: 480px;
+    top: -15px;
+    left: 260px;
     font-weight: bold;
     cursor: pointer;
     transition: all .3s;
@@ -229,8 +231,8 @@ body {
 }
 
 .js-email-form--visible {
-    top: 130px;
-    right: 645px;
+    top: 50px;
+    right: 330px;
     opacity: 1;
     pointer-events: auto;
 }
@@ -252,10 +254,11 @@ body {
 /* map */
 .map-container iframe {
     width: 100%;
+    max-width: 1920px;
     height: 500px;
+    margin: 0 auto;
     display: block;
     border: 0;
-    margin-bottom: 0;
 }
 /* footer logo animation */
 .footer__logo-img:hover {
@@ -265,11 +268,11 @@ body {
 }
 
 @keyframes movingLogo {
-    10% {
-        transform: skewx(10deg);
+    0% {
+        transform: skewx(0deg);
     }
 
     50% {
-        transform: skewx(50deg);
+        transform: skewx(30deg);
     }
 }

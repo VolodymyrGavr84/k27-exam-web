@@ -36,8 +36,10 @@ body {
 /* gallery */
 .gallery-container {
     width: 100%;
+    max-width: 1920px;
     min-height: 700px;
-    padding: 10px 50px;
+    margin: 0 auto;
+    padding: 10px 0;
     background-image: url(../image/gallery/gallery-background.jpg);
     background-repeat: no-repeat;
     background-position: top;
@@ -47,7 +49,7 @@ body {
 .gallery__controls {
     max-width: 550px;
     min-height: 30px;
-    margin: 0 auto 100px;
+    margin: 0 auto 50px;
     padding: 10px;
     border: 5px solid var(--mainGreen);
     border-radius: 30px;
@@ -88,6 +90,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+    padding-left: 50px;
 }    
 
 .mix {

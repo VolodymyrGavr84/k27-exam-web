@@ -35,8 +35,10 @@ body {
 }
 /* popup */
 .slick-container {
+    max-width: 1920px;
     width: 100%;
     min-height: 450px;
+    margin: 0 auto;
     background-image: url(../image/products/products-background.jpg);
     background-repeat: no-repeat;
     background-position: top;
@@ -82,7 +84,9 @@ body {
 /* products grid */
 .products-container {
     width: 100%;
+    max-width: 1920px;  
     min-height: 1300px;
+    margin: 0 auto;
     background-image: url(../image/products/products-background-main.jpg);
     background-repeat: no-repeat;
     background-position: center;

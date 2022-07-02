@@ -41,17 +41,19 @@ body {
 }
 
 @keyframes movingLogo {
-    10% {
-        transform: skewx(10deg);
+    0% {
+        transform: skewx(0deg);
     }
 
     50% {
-        transform: skewx(50deg);
+        transform: skewx(30deg);
     }
 }
 /* about */
 .about-container {
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     min-height: 700px;
     background-image: url(../image//about/about-background.jpg);
     background-position: bottom right;

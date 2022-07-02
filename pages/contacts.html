@@ -48,43 +48,43 @@
             <h3 class="contacts__title">контакты</h3>
             <p>ООО «Производственно коммерческая фирма «Элит Пласт» 73000, Украина, г.Херсон, ул.Советская, 41-А</p>
 
-                <div class="contacts__phone-call"> <!-- contacts absolut top -->
-                    <img class="contacts__phone-icon" src="../image/contacts/phone-icon-white-600x600.png" alt="phone-icon">
-                    <p>Звонить с 8:00 до 17:00</p>
-                </div>
+            <div class="contacts__phone-call"> <!-- contacts absolut top -->
+                <img class="contacts__phone-icon" src="../image/contacts/phone-icon-white-600x600.png" alt="phone-icon">
+                <p>Звонить с 8:00 до 17:00</p>
+            </div>
 
             <a class="contacts__tel" href="tel:+380552314410">+38(0552)314-410</a>,
             <a class="contacts__tel" href="tel:+380552314403">314-403</a>;
             <a class="contacts__tel" href="tel:+380552359214">факс:+38(0552)359-214</a><br>
             <a class="contacts__tel" href="mailto:info@penoboard.com">e-mail:info@penoboard.com</a>
+
+            <div class="email-btn">  <!-- email -->
+                <img class="email-btn__img" src="../image/contacts/email-icon.png" alt="email-icon">
+                <p>Напишите нам</p>
+            </div>
+    
+            <div class="email-form">    <!-- email-form aside-hidden-->
+                <form class="email-form__form" id="novaboard-form" name="novaboard-form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+                    <fieldset class="email-form__fieldset">
+                        <button class="email-form__close-icon" type="reset">X</button>
+                        <legend class="email-form__legend">Заполните форму</legend>
+                        <label class="email-form__name-label" for="email-name">Имя</label>
+                        <input class="email-form__name" type="text" id="email-name" name="name" placeholder="Не обязательно" tabindex="1" maxlength="30">
+            
+                        <label for="email-form">Почта*</label>
+                        <input class="email-form__email" type="email" name="email" id="email-form" placeholder="example@email.com" tabindex="2" required>
+                        <label for="form-textarea">Сообщение*</label>
+            
+                        <textarea class="email-form__textarea" id="form-textarea" placeholder="Напишите Ваше сообщение" tabindex="3" required></textarea>
+            
+                        <button class="email-form__btn" type="submit" name="button" tabindex="4">Отправить</button>
+            
+                        <img class="email-form__logo" src="../image/footer-background.jpg" alt="novabord-logo">
+                    </fieldset>
+                </form>
+            </div>
         </div>
 </header>
-
-<div class="header-email">  <!-- email -->
-    <img class="header-email__img" src="../image/contacts/email-icon.png" alt="email-icon">
-    <p>Напишите нам</p>
-</div>
-
-<div class="email-form">    <!-- email-form aside-hidden-->
-    <form class="email-form__form" id="novaboard-form" name="novaboard-form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
-        <fieldset class="email-form__fieldset">
-            <button class="email-form__close-icon" type="reset">X</button>
-            <legend class="email-form__legend">Заполните форму</legend>
-            <label class="email-form__name-label" for="email-name">Имя</label>
-            <input class="email-form__name" type="text" id="email-name" name="name" placeholder="Не обязательно" tabindex="1" maxlength="30">
-
-            <label for="email-form">Почта*</label>
-            <input class="email-form__email" type="email" name="email" id="email-form" placeholder="example@email.com" tabindex="2" required>
-            <label for="form-textarea">Сообщение*</label>
-
-            <textarea class="email-form__textarea" id="form-textarea" placeholder="Напишите Ваше сообщение" tabindex="3" required></textarea>
-
-            <button class="email-form__btn" type="submit" name="button" tabindex="4">Отправить</button>
-
-            <img class="email-form__logo" src="../image/footer-background.jpg" alt="novabord-logo">
-        </fieldset>
-    </form>
-</div>
 
 <div class="map-container"> <!-- map -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.586174463165!2d32.61153416383484!3d46.63732954403639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ab70369e147%3A0x7c1b1c535f39d7be!2sWezom!5e0!3m2!1sen!2sua!4v1641911567437!5m2!1sen!2sua" loading="lazy"></iframe>
@@ -92,7 +92,7 @@
 
 <footer class="footer">   <!-- footer -->
     <div class="footer__logo">     <!-- footer-logo -->
-        <a href="#">
+        <a href="#" title="страница открыта">
             <img class="footer__logo-img" src="../image/footer-logo.png" alt="footer-logo">
         </a>
     </div>
