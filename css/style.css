@@ -166,6 +166,10 @@ body {
     margin: 10px 0 0;
 }
 
+.slick-header__search-field:hover {
+    border-bottom: 1px solid #918ebe;
+}
+
 .slick-header__search-button {
     border: none;
     background-color: #fff;

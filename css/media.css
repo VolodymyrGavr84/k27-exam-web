@@ -7,14 +7,108 @@
 @media screen and (max-width: 1280px) {
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1080px) {
+    .header-nav {/* header nav-bar */
+        width: 80%;
+        font-size: 14px;
+    }
+    .slick-header {/* slick-header */
+        justify-content: space-evenly;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
+    .slick-header__logo {/* slick-header */
+        width: 95%;
+        padding: 10px;
+    }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 800px) {
+    .header-nav {/* header nav-bar */
+        font-size: 13px;
+        width: 85%;
+    }
+    .slick-header {/* slick-header */
+        padding-left: 20px;
+    }
+    .slick-header__logo {
+        width: 95%;
+        padding: 10px;
+    }
+    .slick-header__contacts-wrapper {
+        justify-content: center;
+    }
+    .slick-header__tel-search-link {
+        font-size: .9em;
+    }
+    .slick-header__search-field {
+        width: 85%;
+        margin:0;
+    }
+    /* Slick*/
+    
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 600px) {
+    .header-nav {/* header nav-bar */
+        font-size: 12px;
+        width: 95%;
+    }
+    .slick-header {/* slick-header */
+        padding-left: 10px;
+    }
+    .slick-header__contacts-text {
+        font-size: 12px;
+    }
+    .slick-header__tel-search {
+        text-align: center;
+    }
+    .slick-header__search-field {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {/* header nav-bar */
+        height: fit-content;
+    }
+    .header-nav__menu {
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+    .header-nav__menu-item {
+        margin: 10px 0;
+    }
+    .slick-header {/* slick-header */
+        flex-direction: column;
+    }
+    .slick-header__logo {
+        width: 85%;
+        padding-left: 30px;
+    }
+    .slick-header__contacts {
+        align-self: auto;
+    }
+    .slick-header__tel-search-link {
+        font-size: 1em;
+    }
+    .slick-header__search-field {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .slick-header__logo {/* slick-header */
+        width: 85%;
+        padding-left: 15px;
+    }
+    .slick-header__tel-search-link {
+        font-size: .75em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .slick-header__tel-search {
+        width: 95%;
+    }  
 }
