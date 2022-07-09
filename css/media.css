@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: 1280px) {
+    .slick {/* Slick */
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -15,12 +19,20 @@
     .slick-header {/* slick-header */
         justify-content: space-evenly;
     }
+    .slick {/* Slick */
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 992px) {
     .slick-header__logo {/* slick-header */
         width: 95%;
         padding: 10px;
+    }
+    .video__youtube-title {/* video-title */
+        font-size: 1.7rem;
+        letter-spacing: 0;
+        text-align: center;
     }
 }
 
@@ -46,8 +58,21 @@
         width: 85%;
         margin:0;
     }
-    /* Slick*/
-    
+    .slick {/* Slick */
+        width: 80%;
+    }
+    .slick-content__text-title {
+        font-size: 1.3rem;
+    }
+    .slick-content__text-subtitle {
+        font-size: 1rem;
+    }
+    .video__logo {/* video-title */
+        height: 60px;
+    }
+    .video__youtube-title {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -67,9 +92,16 @@
     .slick-header__search-field {
         width: 65%;
     }
+    .video__youtube-title {/* video-title */
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
+    .slick-block {
+        height: auto;
+        background: none;
+    }
     .header {/* header nav-bar */
         height: fit-content;
     }
@@ -97,6 +129,24 @@
     .slick-header__search-field {
         width: 60%;
     }
+    .slick {/* Slick */
+        display: none;
+    }
+    .slick-content__shadow-position {
+        display: none;
+    }
+    .video__youtube {/* youtube video */
+        height: 325px;
+    }
+    .video__logo {/* video-logo */
+        display: none;
+    }
+    .video__youtube-title {/* video-title */
+        font-size: 1rem;
+    }
+    .video__youtube-iframe iframe {
+        height: 230px;
+    }
 }
 @media screen and (max-width: 440px) {
     .slick-header__logo {/* slick-header */
@@ -106,9 +156,18 @@
     .slick-header__tel-search-link {
         font-size: .75em;
     }
+    .video__youtube-title {/* video-title */
+        font-size: .85rem;
+    }
+    .video-text__button-btn {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 320px) {
-    .slick-header__tel-search {
+    .slick-header__tel-search {/* slick-header */
         width: 95%;
-    }  
+    }
+    .video__youtube-title {/* video-title */
+        font-size: .7rem;
+    }
 }

@@ -277,7 +277,9 @@ body {
 }
 
 .video__youtube-iframe iframe{
-    width: 574px;
+    margin: 0 10px;
+    max-width: 574px;
+    width: 100%;
     height: 319px;
     display: block;
     border: 0;
@@ -308,7 +310,7 @@ body {
     margin: 15px 0;
     line-height: 1.3;
 }
-/* button */
+/* video-button */
 .video-text__button {
     min-height: 120px;
     max-width: 980px;
