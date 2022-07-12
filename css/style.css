@@ -356,7 +356,7 @@ body {
 }
 
 .scope-of-application {
-    width: 64%;
+    max-width: 1228px;
     margin: 0 auto;
 }
 /* scope-title */

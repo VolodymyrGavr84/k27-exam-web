@@ -1,14 +1,24 @@
-@media screen and (max-width: 1600px) {
-}
-
-@media screen and (max-width: 1440px) {
-}
-
 @media screen and (max-width: 1280px) {
     .slick {/* Slick */
         width: 90%;
         margin: 0 auto;
     }
+    .scope-of-application-content {/*scope-of-application*/
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .rhombus-images:nth-child(2n+1) {/* rombus images */
+        align-self: none;
+        margin-top: 0;
+    }
+    .rhombus-images-block {
+        width: 100%;
+        height: 520px;
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        align-items: baseline;
+    }  
 }
 
 @media screen and (max-width: 1080px) {
@@ -34,6 +44,15 @@
         letter-spacing: 0;
         text-align: center;
     }
+    .left-scope-content__title p,
+    .right-scope-content__title p {/*scope-of-application*/
+        text-align: center;
+        margin: 0 20px;
+    }
+    .rhombus-images-block {/* rombus images */
+        grid-template-columns: 30% 30% 30%;
+        justify-content: flex-end;
+    }  
 }
 
 @media screen and (max-width: 800px) {
@@ -41,7 +60,7 @@
         font-size: 13px;
         width: 85%;
     }
-    .slick-header {/* slick-header */
+    .slick-header {/* slick-header */ 
         padding-left: 20px;
     }
     .slick-header__logo {
@@ -73,6 +92,56 @@
     .video__youtube-title {
         font-size: 1.4rem;
     }
+    .scope-of-application__title {/* scope-of-application */
+        font-size: 24px;
+        height: 60px;
+    }
+    .left-scope-content__ul-li,
+    .right-scope-content__ul-li {
+        width: 65%;
+    }
+    .left-scope-content,
+    .right-scope-content {
+        background-position: bottom;
+    }
+    .rhombus-images {/* rombus images */
+        width: 150px;
+    }
+    .rhombus-images-block {
+        height: 480px;
+        justify-content: flex-end;
+    }  
+    .rhombus-images__items {
+        max-width: 145px;
+        height: 145px;
+    }
+    .rhombus-images__img {
+        width: 70%;
+        height: auto;
+    }
+    .rhombus-images p {
+        font-size: 12px;
+    }
+    .table-title {/* table */
+        width: 100%;
+        height: 80px;
+    }
+    .table-title__logo-img {
+        max-width: 319px;
+        width: 40%;
+        height: auto;
+        margin: 20px 0 5px;
+    }
+    .table-title p {
+        font-size: 22px;
+    }
+    .tasks-container {/* tasks */
+        margin-bottom: 10px;
+    }
+    .tasks-logo {
+        height: 70px;
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -95,7 +164,52 @@
     .video__youtube-title {/* video-title */
         font-size: 1.2rem;
     }
-}
+    .scope-of-application__title {/* scope-of-application */
+        font-size: 20px;
+        height: 60px;
+    }
+    .left-scope-content__title p,
+    .right-scope-content__title p {
+        text-align: center;
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    .left-scope-content__footer-logo-img,
+    .right-scope-content__footer-logo-img {
+        margin: 0 auto;
+        height: auto;
+        width: 60%;
+    }
+    .rhombus-images-block {/* rombus images */
+        justify-content: center;
+    }
+    .table-container {/* table */
+        min-height: 580px;
+    }
+    .table-block {
+        min-height: 580px;
+    }
+    .table {
+        min-height: 500px;
+    }
+    .table__shadow-img {
+        width: 139%;
+    }
+    .table-title p {
+        font-size: 18px;
+    }
+    .table-style tr:first-child td {
+        font-size: 10px;
+    }
+    .table-style td {
+        font-size: 10px;
+        padding: 0;
+    }
+    .tasks-logo {/* tasks */
+        height: 55px;
+        font-size: 21px;
+    }
+
 
 @media screen and (max-width: 500px) {
     .slick-block {
@@ -135,7 +249,10 @@
     .slick-content__shadow-position {
         display: none;
     }
-    .video__youtube {/* youtube video */
+    .video-container {/* youtube video */
+        min-height: 720px;
+    }
+    .video__youtube {
         height: 325px;
     }
     .video__logo {/* video-logo */
@@ -146,6 +263,32 @@
     }
     .video__youtube-iframe iframe {
         height: 230px;
+    }
+    .rhombus-images-block {/* rombus images */
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+    }
+    .rhombus-images-block {
+        height: 455px;
+    }
+    .rhombus-images p {
+        font-size: 11px;
+    }
+    .rhombus-images__items {
+        max-width: 125px;
+        height: 125px;
+    }
+    .rhombus-images__img {
+        width: 60%;
+    }
+    .table__shadow-img {/* table */
+        width: 150%;
+    }
+    .tasks-logo {/* tasks */
+        font-size: 18px;
+    }
+    .tasks {
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 440px) {
@@ -162,12 +305,77 @@
     .video-text__button-btn {
         width: 100%;
     }
+    .video-text__button {
+        min-height: 100px;
+    }
+    .scope-of-application__title {/* scope-of-application */
+        font-size: 18px;
+        text-align: center;
+        height: 65px;
+    }
+    .left-scope-content__ul,
+    .right-scope-content__ul {
+        font-size: 11px;
+    }
+    .left-scope-content__ul-li, .right-scope-content__ul-li {
+        width: 55%;
+    }
+    .rhombus-images-block {/* rhombus images */
+        height: 440px;
+    }
+    .rhombus-images-block {
+        justify-content: center;
+    }
+    .table-title p {/* table */
+        font-size: 16px;
+    }
+    .table-style tr:first-child td {
+        font-size: 9px;
+    }
+    .table-style td {
+        font-size: 8px;
+    }
+    .tasks {/* tasks */
+        grid-template-columns: 0 auto auto 0;
+    }
+    .tasks__img-sad-smile {
+        margin: 5px;
+    }
+    .tasks__img-smile {
+        margin: 5px;
+    }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
     .slick-header__tel-search {/* slick-header */
         width: 95%;
     }
     .video__youtube-title {/* video-title */
         font-size: .7rem;
+    }
+    .video-text p {
+        font-size: 12px;
+    }
+    .left-scope-content__title p,
+    .right-scope-content__title p {/* scope-of-aplication */
+        font-size: 12px;
+    }
+    .scope-of-application-content {
+        width: 50%;
+    }
+    .rhombus-images-block {
+        justify-content: flex-start;
+    }
+    .table-style tr:first-child td {/* table */
+        font-size: 8px;
+    }
+    .table-style td {
+        font-size: 7px;
+    }
+    .table__shadow-img {
+        width: 170%;
+    }
+    .tasks-logo {/* tasks */
+        font-size: 16px;
     }
 }
