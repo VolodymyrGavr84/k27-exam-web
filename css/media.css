@@ -32,6 +32,10 @@
     .slick {/* Slick */
         width: 85%;
     }
+    .table__shadow-img {/* table */
+        left: -40px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -142,6 +146,22 @@
         height: 70px;
         font-size: 25px;
     }
+    .certificates-title__img {/* certificates */
+        max-width: 375px;
+        height: auto;
+        width: 40%;
+    }
+    .certificates-title p {
+        font-size: 25px;
+    }
+    .js-certificates-content {
+        height: fit-content;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .certificates-award p {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -192,9 +212,6 @@
     .table {
         min-height: 500px;
     }
-    .table__shadow-img {
-        width: 139%;
-    }
     .table-title p {
         font-size: 18px;
     }
@@ -209,7 +226,21 @@
         height: 55px;
         font-size: 21px;
     }
-
+    .certificates-title {/* certificates */
+        height: 75px;
+        margin-bottom: 10px;
+    }
+    .certificates-title p {
+        font-size: 20px;
+    }
+    .certificates-award p {
+        font-size: 17px;
+    }
+    .contacts p {/* contacts */
+        padding: 0 10px 15px;
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 500px) {
     .slick-block {
@@ -281,9 +312,6 @@
     .rhombus-images__img {
         width: 60%;
     }
-    .table__shadow-img {/* table */
-        width: 150%;
-    }
     .tasks-logo {/* tasks */
         font-size: 18px;
     }
@@ -291,6 +319,7 @@
         font-size: 12px;
     }
 }
+
 @media screen and (max-width: 440px) {
     .slick-header__logo {/* slick-header */
         width: 85%;
@@ -344,6 +373,24 @@
     .tasks__img-smile {
         margin: 5px;
     }
+    .certificates-title {/* certificates */
+        height: 55px;
+    }
+    .certificates-title p {
+        font-size: 15px;
+    }
+    .contacts__title {/* contacts */
+        font-size: 23px;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .contacts p {
+        padding: 0 10px 10px;
+        font-size: 14px;
+    }
+    .contacts__tel {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
@@ -372,10 +419,25 @@
     .table-style td {
         font-size: 7px;
     }
-    .table__shadow-img {
-        width: 170%;
-    }
     .tasks-logo {/* tasks */
         font-size: 16px;
+    }
+    .certificates-title {/* certificates */
+        height: 60px;
+    }
+    .certificates-award p {
+        font-size: 13px;
+    }
+    .contacts__title {/* contacts */
+        font-size: 22px;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .contacts p {
+        padding: 0 10px 10px;
+        font-size: 14px;
+    }
+    .contacts__tel {
+        font-size: 14px;
     }
 }

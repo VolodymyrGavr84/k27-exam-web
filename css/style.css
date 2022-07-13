@@ -821,7 +821,7 @@ body {
 }
 /* contacts */
 .contacts {
-    width: 100%;
+    width: 65%;
     max-width: 1248px;
     height: 200px;
     background-color: var(--mainGreen);
@@ -832,6 +832,7 @@ body {
     left: 18%;
     color: #fff;
     text-align: center;
+    z-index: 1;
 }
 /* contacts-text */
 .contacts__title {
@@ -843,7 +844,7 @@ body {
 }
 
 .contacts p {
-    padding-bottom: 25px;
+    padding: 0 10px 25px;
     max-width: 630px;
     margin: 0 auto;
 }
