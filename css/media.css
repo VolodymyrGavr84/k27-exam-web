@@ -3,13 +3,17 @@
         width: 90%;
         margin: 0 auto;
     }
+    .slick-content__shadow-position {
+        left: -2%;
+        width: 100%;
+    }
     .scope-of-application-content {/*scope-of-application*/
         width: 95%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
     .rhombus-images:nth-child(2n+1) {/* rombus images */
-        align-self: none;
+        align-self: normal;
         margin-top: 0;
     }
     .rhombus-images-block {
@@ -31,10 +35,6 @@
     }
     .slick {/* Slick */
         width: 85%;
-    }
-    .table__shadow-img {/* table */
-        left: -40px;
-        width: 100%;
     }
 }
 
@@ -66,6 +66,7 @@
     }
     .slick-header {/* slick-header */ 
         padding-left: 20px;
+        width: 95%;
     }
     .slick-header__logo {
         width: 95%;
@@ -162,6 +163,9 @@
     .certificates-award p {
         font-size: 20px;
     }
+    .footer {/* footer */
+        min-height: 250px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +226,10 @@
         font-size: 10px;
         padding: 0;
     }
+    .table__shadow-img {
+        left: -10px;
+        width: 100%;
+    }
     .tasks-logo {/* tasks */
         height: 55px;
         font-size: 21px;
@@ -239,6 +247,12 @@
     .contacts p {/* contacts */
         padding: 0 10px 15px;
         font-size: 14px;
+    }
+    .footer__logo {/* footer */
+        text-align: center;
+    }
+    .footer__logo-img {
+        width: 75%;
     }
 }
 
@@ -318,6 +332,9 @@
     .tasks {
         font-size: 12px;
     }
+    .footer {/* footer */
+        min-height: 200px;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -347,7 +364,7 @@
         font-size: 11px;
     }
     .left-scope-content__ul-li, .right-scope-content__ul-li {
-        width: 55%;
+        width: 50%;
     }
     .rhombus-images-block {/* rhombus images */
         height: 440px;
@@ -410,8 +427,11 @@
     .scope-of-application-content {
         width: 50%;
     }
-    .rhombus-images-block {
+    .rhombus-images-block {/* rhombus-images */
         justify-content: flex-start;
+    }
+    .rhombus-images {
+        width: 125px;
     }
     .table-style tr:first-child td {/* table */
         font-size: 8px;
