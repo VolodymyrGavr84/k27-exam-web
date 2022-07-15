@@ -144,6 +144,7 @@ body {
 .slick-header__tel-search {
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .slick-header__tel-search-link {
