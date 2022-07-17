@@ -111,7 +111,7 @@ body {
 .news__side-1,
 .news__side-2 {
     width: 40%;
-    height: 800px;
+    min-height: 800px;
     padding: 20px;
     background-color: #ffffff85;
     border: 2px solid #e6ecf4;
@@ -153,7 +153,7 @@ body {
     color: var(--mainGreen);
 }
 
-.newsr__item p b {
+.news__item p b {
     font-size: 20px;
     text-shadow: 2px 2px 3px #fff;
 }
