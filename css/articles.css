@@ -33,6 +33,11 @@ body {
     width: 80%;
     margin: 0 auto 10px;
 }
+
+.slick-header {
+    margin-bottom: 20px;
+}
+
 /* sideBar */
 .articles-wrapper {
     width: 100%;
@@ -44,6 +49,7 @@ body {
 
 .articles-container {
     max-width: 1000px;
+    width: 75%;
     min-height: fit-content;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -61,7 +67,7 @@ body {
 
 .articles-item {
     margin: 0 auto;
-    width: 450px;
+    max-width: 450px;
     height: auto;
 }
 
