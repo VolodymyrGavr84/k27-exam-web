@@ -95,14 +95,15 @@ body {
 
 .products {
     display: grid;
-    grid-template-columns: repeat(3,500px);
+    grid-template-columns: repeat(3,30%);
     gap: 10px;
     justify-content: center;
 }
 
 .products__items {
     margin: 0 auto;
-    width: 500px;
+    margin-bottom: 10px;
+    width: 100%;
     min-height: 600px;
     box-shadow: 0 0 10px 4px #585858;
     background-color: #fff;

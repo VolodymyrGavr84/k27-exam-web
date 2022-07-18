@@ -50,6 +50,11 @@
     .news__title {/* news */
         font-size: 17px;
     }
+    /* ========== PRODUCTS =========== */
+    .products__items-img {
+        max-width: 210px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -199,6 +204,16 @@ flex-direction: column;
     .slick-header__contacts {
         align-self: center;
     }
+    /* ========== PRODUCTS =========== */
+    .products {
+        grid-template-columns: repeat(2,40%);
+    }
+    .products__items-title {
+        font-size: 18px;
+    }
+    .products__items p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -290,6 +305,28 @@ flex-direction: column;
     /* ========== NEWS =========== */
     .cardigan {
         left: 0px;
+    }
+    /* ========== PRODUCTS =========== */
+    .slick-container {
+        min-height: 235px;
+    }
+    .slick {
+        height: 130px;
+    }
+    .slick__item-img {
+        width: 76px;
+    }
+    .slick__item p {
+        width: 80px;
+    }
+    /* ========== GALLERY =========== */
+    .gallery__controls-btn {
+        font-size: 12px;
+    }
+    .gallery-filter {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 0 50px;
     }
 }
 
@@ -388,6 +425,14 @@ flex-direction: column;
     .news__item p {
         font-size: 14px;
     }
+    /* ========== PRODUCTS =========== */
+    .products {
+        grid-template-columns: repeat(1,80%);
+    }
+    /* ========== GALLERY =========== */
+    .gallery__controls-btn {
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -475,6 +520,10 @@ flex-direction: column;
         top: 5px;
         right: 8px;
     }
+    /* ========== GALLERY =========== */
+    .gallery-filter {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
@@ -526,5 +575,9 @@ flex-direction: column;
     }
     .contacts__tel {
         font-size: 14px;
+    }
+    /* ========== GALLERY =========== */
+    .gallery__controls-btn {
+        font-size: 10px;
     }
 }

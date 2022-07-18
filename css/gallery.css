@@ -90,7 +90,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    padding-left: 50px;
+    padding: 0 50px;
 }    
 
 .mix {
