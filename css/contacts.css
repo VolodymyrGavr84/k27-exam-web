@@ -231,8 +231,9 @@ body {
 }
 
 .js-email-form--visible {
-    top: 50px;
-    right: 330px;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%,-50%);
     opacity: 1;
     pointer-events: auto;
 }
