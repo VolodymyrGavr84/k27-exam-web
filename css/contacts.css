@@ -248,7 +248,7 @@ body {
 
 .email-form__email:valid,
 .email-form__textarea:valid {
-    background-image: url(../image/contacts/correct-icon.png);
+    background-image: url(../image/contacts/correct.png);
     background-repeat: no-repeat;
     background-position: right;
 }
