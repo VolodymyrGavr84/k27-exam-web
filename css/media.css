@@ -787,11 +787,16 @@
         width: 50%;
     }
     /* rhombus-images */
+    .scope-of-application-container {
+        min-height: 795px;
+    }
     .rhombus-images-block {
         justify-content: flex-start;
+        height: 400px;
     }
     .rhombus-images {
         width: 125px;
+        min-height: 195px;
     }
     /* table */
     .table-style tr:first-child td {
