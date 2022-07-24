@@ -10,6 +10,11 @@
 }
 
 @media screen and (max-width: 1440px) {
+    /* ========== PRODUCTS =========== */
+    .products__items-delivery-info p {
+        font-size: 18px;
+        line-height: normal;
+    }
     /* ========== ARTICLES =========== */
     .js-sidebar {
         max-width: 170px;
@@ -56,6 +61,10 @@
         display: grid;
         grid-template-columns: 20% 20% 20%;
         align-items: baseline;
+    }
+    /* ========== PRODUCTS =========== */
+    .products__items-delivery-info p {
+        font-size: 16px;
     }
      /* ========== NEWS =========== */
     .news__item p {
@@ -116,6 +125,9 @@
     .products__items-img {
         max-width: 210px;
         height: 100px;
+    }
+    .products__items-delivery {
+        font-size: 1.1rem;
     }
     /* ========== CONTACTS =========== */
     .contacts__phone-call {
@@ -323,10 +335,24 @@
     .products__items p {
         font-size: 16px;
     }
+    .products__items-delivery-info p {
+        font-size: 14px;
+    }
     /* ========== CONTACTS =========== */
     .contacts__phone-call {
         display: none;
     }
+
+@media screen and (max-width: 650px) {
+    .email-btn {
+        width: 50px;
+        height: 50px;
+        top: 147px;
+    }
+    .email-btn__img {
+        width: 40px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     /* header nav-bar */
@@ -443,6 +469,9 @@
     }
     .slick__item p {
         width: 80px;
+    }
+    .products__items-delivery-info p {
+        font-size: 14px;
     }
     /* ========== GALLERY =========== */
     .gallery__controls-btn {
@@ -582,6 +611,9 @@
     .products {
         grid-template-columns: repeat(1,80%);
     }
+    .products__items-delivery-info p {
+        font-size: 20px;
+    }
     /* ========== GALLERY =========== */
     .gallery__controls-btn {
         font-size: 11px;
@@ -693,6 +725,10 @@
     .contacts__tel {
         font-size: 14px;
     }
+    /* ========== PRODUCTS =========== */
+    .products__items-delivery-info p {
+        font-size: 18px;
+    }
     /* ========== NEWS =========== */
     .news__item {
         display: block;
@@ -788,6 +824,10 @@
     .contacts__tel {
         font-size: 14px;
     }
+    /* ========== PRODUCTS =========== */
+    .products__items-delivery-info p {
+        font-size: 16px;
+    }
     /* ========== GALLERY =========== */
     .gallery__controls-btn {
         font-size: 10px;
@@ -809,4 +849,5 @@
     .email-form__textarea {
         width: 220px;
     }
+}
 }
