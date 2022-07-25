@@ -622,11 +622,12 @@
     .header {
         margin-bottom: 0;
     }
-    .email-btn {
-        right: -55px;
-    }
     .contacts {
-        top: 0;
+        top: -40px;
+    }
+    .email-btn {
+        top: 180px;
+        right: 40%;
     }
     .js-email-form--visible {
         width: 420px;
@@ -748,6 +749,13 @@
         grid-template-columns: repeat(1, 1fr);
     }
     /* ========== CONTACTS =========== */
+    .contacts {
+        top: -40px;
+    }
+    .email-btn {
+        top: 180px;
+        right: 40%;
+    }
     .js-email-form--visible {
         width: 400px;
     }
@@ -838,6 +846,13 @@
         font-size: 10px;
     }
     /* ========== CONTACTS =========== */
+    .contacts {
+        top: -40px;
+    }
+    .email-btn {
+        top: 180px;
+        right: 40%;
+    }
     .js-email-form--visible {
         width: 310px;
     }
